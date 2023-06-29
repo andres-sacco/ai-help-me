@@ -15,7 +15,7 @@ pipeline {
             stage('Unit Test') {
                 steps {
                     dir('applications/api-provider-alpha') {
-                        sh 'mvn test'
+                        sh 'mvn test -P RP'
                     }
                 }
             }
