@@ -1,0 +1,200 @@
+[
+  {
+    "name": "LAUNCH STATISTICS AREA",
+    "widgetType": "statisticTrend",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$total",
+        "statistics$executions$passed",
+        "statistics$executions$failed",
+        "statistics$executions$skipped",
+        "statistics$defects$product_bug$pb001",
+        "statistics$defects$automation_bug$ab001",
+        "statistics$defects$system_issue$si001",
+        "statistics$defects$to_investigate$ti001"
+      ],
+      "widgetOptions": {
+        "timeline": "launch",
+        "viewMode": "area-spline",
+        "zoom": false
+      }
+    }
+  },
+  {
+    "name": "LAUNCH STATISTICS BAR",
+    "widgetType": "statisticTrend",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$passed",
+        "statistics$executions$failed",
+        "statistics$executions$skipped"
+      ],
+      "widgetOptions": {
+        "timeline": "launch",
+        "viewMode": "bar",
+        "zoom": false
+      }
+    }
+  },
+  {
+    "name": "INVESTIGATED PERCENTAGE OF LAUNCHES",
+    "widgetType": "investigatedTrend",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+      ],
+      "widgetOptions": {
+        "timeline": "launch"
+      }
+    }
+  },
+  {
+    "name": "TEST CASES GROWTH TREND CHART",
+    "widgetType": "casesTrend",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$total"
+      ],
+      "widgetOptions": {
+      }
+    }
+  },
+  {
+    "name": "OVERALL STATISTICS PANEL",
+    "widgetType": "overallStatistics",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$total",
+        "statistics$executions$passed",
+        "statistics$executions$failed",
+        "statistics$executions$skipped",
+        "statistics$defects$product_bug$pb001",
+        "statistics$defects$automation_bug$ab001",
+        "statistics$defects$system_issue$si001",
+        "statistics$defects$to_investigate$ti001"
+      ],
+      "widgetOptions": {
+        "latest": false,
+        "viewMode": "panel"
+      }
+    }
+  },
+  {
+    "name": "LAUNCHES DURATION CHART",
+    "widgetType": "launchesDurationChart",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+      ],
+      "widgetOptions": {
+        "latest": false
+      }
+    }
+  },
+  {
+    "name": "OVERALL STATISTICS DONUT",
+    "widgetType": "overallStatistics",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$total",
+        "statistics$executions$passed",
+        "statistics$executions$failed",
+        "statistics$executions$skipped",
+        "statistics$defects$product_bug$pb001",
+        "statistics$defects$automation_bug$ab001",
+        "statistics$defects$system_issue$si001",
+        "statistics$defects$to_investigate$ti001"
+      ],
+      "widgetOptions": {
+        "latest": false,
+        "viewMode": "donut"
+      }
+    }
+  },
+  {
+    "name": "FAILED CASES TREND CHART",
+    "widgetType": "bugTrend",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$failed'"
+      ],
+      "widgetOptions": {
+      }
+    }
+  },
+  {
+    "name": "LAUNCH TABLE",
+    "widgetType": "launchesTable",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "name",
+        "status",
+        "startTime",
+        "endTime",
+        "lastModified",
+        "number",
+        "description",
+        "user",
+        "attributes",
+        "statistics$executions$total",
+        "statistics$executions$passed",
+        "statistics$executions$failed",
+        "statistics$executions$skipped",
+        "statistics$defects$product_bug$pb001",
+        "statistics$defects$automation_bug$ab001",
+        "statistics$defects$system_issue$si001",
+        "statistics$defects$to_investigate$ti001"
+      ],
+      "widgetOptions": {
+      }
+    }
+  },
+  {
+    "name": "MOST FAILED TEST CASES",
+    "widgetType": "topTestCases",
+    "contentParameters": {
+      "itemsCount": 30,
+      "contentFields": [
+        "statistics$executions$failed"
+      ],
+      "widgetOptions": {
+        "launchNameFilter": "Demo Api Tests",
+        "includeMethods": false
+      }
+    }
+  },
+  {
+    "name": "PASSING RATE SUMMARY",
+    "widgetType": "passingRateSummary",
+    "contentParameters": {
+      "itemsCount": 50,
+      "contentFields": [
+        "statistics$executions$total",
+        "statistics$executions$passed"
+      ],
+      "widgetOptions": {
+        "viewMode": "pie"
+      }
+    }
+  },
+  {
+    "name": "FLAKY TEST CASES",
+    "widgetType": "flakyTestCases",
+    "contentParameters": {
+      "itemsCount": 30,
+      "contentFields": [
+      ],
+      "widgetOptions": {
+        "launchNameFilter": "Demo Api Tests",
+        "includeMethods": false
+      }
+    }
+  }
+]
