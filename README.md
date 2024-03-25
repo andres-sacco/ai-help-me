@@ -71,10 +71,3 @@ Many free tools support development. Here are two you may like:
 - [Eclipse](https://www.eclipse.org/downloads/) – Eclipse is another IDE option for Kotlin development. Most plugins are free and have a vast community of developers who frequently update them.
 
 Take into consideration that there are other IDE but according to [Snyk 2021 Report](https://res.cloudinary.com/snyk/image/upload/v1623860216/reports/jvm-ecosystem-report-2021.pdf), most of the JVM developers use Eclipse and Intellij, but the use of Visual Studio code is growing in the last year.
-
-# Further readings
-
-It is not the idea of this repository bring all the information about the pros/cons or more information about the tools that appear here, for that reason the following links could help you to clarify any doubt that you have:
-
-- [Jenkins configuration](https://www.vogella.com/tutorials/Jenkins/article.html)
-- [Sonarqube configuration](https://blog.setapp.pl/sonarqube_introduction)
